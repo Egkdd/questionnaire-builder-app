@@ -1,0 +1,28 @@
+body {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f7f7f7;
+}
+
+input,
+textarea,
+select,
+button {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+form input,
+form textarea,
+form select,
+form button {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,71 @@
+.catalogContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 0 20px;
+
+  h2 {
+    color: rgba(4, 96, 108, 0.9);
+    margin-left: 1rem;
+    font-size: 28px;
+  }
+
+  .createButton {
+    padding: 10px 20px;
+    background-color: rgba(6, 127, 143, 0.9);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+
+    &:hover {
+      background-color: rgba(4, 96, 108, 0.9);
+      transform: translateY(-1px);
+    }
+  }
+
+  .sortMenu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .sortMenu label {
+    font-size: 16px;
+    color: #333;
+  }
+
+  .sortSelect {
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    transition:
+      border-color 0.3s ease,
+      background-color 0.3s ease;
+  }
+
+  .sortSelect:focus {
+    outline: none;
+    border-color: rgba(6, 127, 143, 0.9);
+    background-color: #e8f4fc;
+  }
+
+  .sortSelect option {
+    padding: 8px 12px;
+    font-size: 16px;
+  }
+}
+
+.questionnaireList {
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(26rem, 1fr));
+  gap: 0.5rem;
+}

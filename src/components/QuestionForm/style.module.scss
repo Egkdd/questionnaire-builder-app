@@ -1,0 +1,28 @@
+.formContainer {
+  padding: 1rem;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  max-width: 80rem;
+  margin: 0 auto;
+
+  h2 {
+    color: rgba(4, 96, 108, 0.9);
+  }
+}
+
+.formTitle {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #2d3748;
+  text-align: center;
+}
+
+.formDescription {
+  font-size: 1.125rem;
+  color: #4a5568;
+  margin-bottom: 2rem;
+  text-align: center;
+}

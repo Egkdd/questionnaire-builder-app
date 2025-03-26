@@ -1,0 +1,26 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #e0e0e0;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.submitButton {
+  display: block;
+  margin: 2rem auto 0 auto;
+  padding: 0.75rem 1.5rem;
+  background-color: rgba(6, 127, 143, 0.9);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+  background-color: rgba(4, 96, 108, 0.9);
+}

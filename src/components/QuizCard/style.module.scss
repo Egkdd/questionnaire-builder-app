@@ -1,0 +1,91 @@
+.quizCard {
+  position: relative;
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  width: 25rem;
+  height: 13rem;
+  box-sizing: border-box;
+
+  &:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin-bottom: 10px;
+  }
+
+  .questionsCount {
+    color: rgba(6, 127, 143, 0.9);
+    position: absolute;
+    bottom: 1rem;
+  }
+}
+
+.completionText {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 0.9rem;
+  color: #888;
+  visibility: hidden;
+}
+
+.quizCard:hover .completionText {
+  visibility: visible;
+}
+
+.menuButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #555;
+}
+
+.menuButton:hover {
+  background: transparent;
+  border: none;
+}
+
+.menu {
+  position: absolute;
+  top: 40px;
+  right: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 10px;
+  display: none;
+  flex-direction: column;
+}
+
+.quizCard:hover .menu {
+  display: flex;
+}
+
+.menu button {
+  padding: 8px 12px;
+  font-size: 1rem;
+  border: none;
+  background: none;
+  text-align: left;
+  color: #555;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.menu button:hover {
+  background-color: #f0f0f0;
+}
